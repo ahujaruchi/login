@@ -1,0 +1,106 @@
+.padding_half {
+  padding: 40px 0;
+}
+
+.callus input[type="text"],
+.callus .keyword-input,
+.callus .intro .zelect,
+.callus select,
+.callus .form-control {
+  border: 1px solid #d5dadf;
+  height: 44px;
+  border-radius: 4px;
+  background: #fff;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #999999;
+}
+
+.single-query input,
+.single-query select {
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.search-form-group {
+  display: inline-block;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+/* ---------- Login   ---------- */
+#login .profile-login {
+  background: #1f3f81;
+  margin: auto;
+  width: 442px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+#login .profile-login ul li {
+  display: inline-block;
+}
+#login .profile-login .nav-tabs li a {
+  border-radius: 0;
+}
+#login .profile-login ul li a {
+  background: #fff;
+  font-size: 18px;
+
+  width: 221px;
+  max-width: 100%;
+  line-height: 46px;
+  height: 54px;
+  border: none;
+  display: block;
+  padding: 0;
+}
+#login .profile-login ul .active > a {
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  background: #1f3f81;
+}
+#login .profile-login .nav-tabs {
+  border: none;
+}
+#login .profile-login .nav-tabs > li > a {
+  margin: 0;
+}
+#login .profile-login .nav > li > a:hover {
+  color: #fff;
+  background: #1f3f81;
+  border: none;
+  border-radius: 0;
+}
+#login .profile-login .btn-slide {
+  background: #ffd119;
+  width: 100%;
+  color: #191919;
+  padding: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 1000ms ease 0s, background-color 1500ms ease 0s;
+}
+#login .profile-login .btn-slide:hover {
+  background: #fff;
+  color: #191919;
+}
+#login .profile-login .check-box-2 {
+  display: inline-block;
+}
+#login .profile-login .search-form-group.white > span {
+  vertical-align: text-bottom;
+  color: #fff;
+  padding-left: 5px;
+}
+#login .profile-login .lost-pass {
+  border-bottom: 1px solid #ffd119;
+  color: #ffd119;
+  font-size: 14px;
+  transition: color 1000ms ease 0s, background-color 1500ms ease 0s;
+}
+#login .profile-login .lost-pass:hover {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+/* -------- Contact Us ends ------- */
